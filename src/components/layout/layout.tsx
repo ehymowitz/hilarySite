@@ -1,6 +1,7 @@
 import React from "react"
 import Helmet from "react-helmet"
 import Container from "../container/container"
+import Footer from "../footer/footer"
 import Nav from "../nav/nav"
 import { GlobalStyle, StyledLayout } from "./layout.styled"
 
@@ -15,14 +16,18 @@ export default function Layout({ children }: Props) {
       <Helmet defer={false}>
         <title>Hilary Armstrong</title>
         <meta name="description" content="Website Description" />
-        <meta property="og:title" content="Website Title" />
-        <meta property="og:description" content="Website Description" />
+        <meta property="og:title" content="Hilary Armstrong" />
+        <meta
+          property="og:description"
+          content="Hilary Armstrong's Web Portfolio!"
+        />
         <meta property="og:image" content="/webImage.png" />
-        <meta property="og:url" content="Website Url" />
+        <meta property="og:url" content="https://hilarya.com/" />
         <meta property="og:type" content="website" />
       </Helmet>
       <Nav />
       <Container>{children}</Container>
+      <Footer />
     </StyledLayout>
   )
 }
