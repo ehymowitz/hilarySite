@@ -1,10 +1,12 @@
-import React from 'react'
-import Layout from '../components/layout'
+import React from "react"
+import Layout from "../components/layout"
+import Nav from "../components/nav/nav"
 
 export default function Home() {
   return (
     <Layout>
-      <div>Hello World!</div>
+      <Nav />
+      <div>test</div>
     </Layout>
   )
 }
