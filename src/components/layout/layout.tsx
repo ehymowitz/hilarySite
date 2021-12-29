@@ -1,10 +1,11 @@
-import React, { ReactNode } from "react"
+import React from "react"
 import Helmet from "react-helmet"
+import Container from "../container/container"
 import Nav from "../nav/nav"
 import { GlobalStyle, StyledLayout } from "./layout.styled"
 
 interface Props {
-  children: ReactNode
+  children: JSX.Element
 }
 
 export default function Layout({ children }: Props) {
@@ -21,7 +22,7 @@ export default function Layout({ children }: Props) {
         <meta property="og:type" content="website" />
       </Helmet>
       <Nav />
-      {children}
+      <Container>{children}</Container>
     </StyledLayout>
   )
 }
