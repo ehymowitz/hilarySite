@@ -1,11 +1,9 @@
 import React from "react"
-import Layout from "../components/layout"
-import Nav from "../components/nav/nav"
+import Layout from "../components/layout/layout"
 
 const About = () => {
   return (
     <Layout>
-      <Nav />
       <div>
         Hilary is a Singaporean-Canadian actor and host passionate about art
         that brings people together and gives a voice to the unheard. As a
