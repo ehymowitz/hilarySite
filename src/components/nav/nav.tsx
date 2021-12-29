@@ -5,7 +5,9 @@ import { StyledNav } from "./nav.styled"
 const Nav = () => {
   return (
     <StyledNav>
-      <h1>Hilary Armstrong</h1>
+      <Link to="/">
+        <h2>Hilary Armstrong</h2>
+      </Link>
       <div>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>

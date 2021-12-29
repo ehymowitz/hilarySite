@@ -15,7 +15,7 @@ export default function Layout({ children }: Props) {
       <GlobalStyle />
       <Helmet defer={false}>
         <title>Hilary Armstrong</title>
-        <meta name="description" content="Website Description" />
+        <meta name="description" content="Hilary Armstrong's Web Portfolio!" />
         <meta property="og:title" content="Hilary Armstrong" />
         <meta
           property="og:description"
