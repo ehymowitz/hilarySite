@@ -13,14 +13,11 @@ export const ContactLayout = styled.div`
 
     input,
     textarea {
+      font-family: Commissioner;
       margin-bottom: 2em;
       border: none;
       background-color: white;
       padding: 1em;
-    }
-
-    textarea {
-      height: 5em;
     }
 
     input,
