@@ -10,6 +10,7 @@ const Contact = () => {
         <h2>Drop Me A Line!</h2>
         <form
           name="contact"
+          action="/contact-success"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
